@@ -20,7 +20,7 @@ images.forEach(image => {
             draggedItem.replaceWith(e.target);
             temp.replaceWith(draggedItem);
         }
-        draggedItem.classList.remove("dragging");
+        draggedItem.classList.remove("selected");
         draggedItem = null;
     });
 
